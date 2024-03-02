@@ -1,0 +1,22 @@
+➜  ~ ping 146.190.246.177
+PING 146.190.246.177 (146.190.246.177): 56 data bytes
+64 bytes from 146.190.246.177: icmp_seq=0 ttl=54 time=97.171 ms
+64 bytes from 146.190.246.177: icmp_seq=1 ttl=54 time=5.270 ms
+64 bytes from 146.190.246.177: icmp_seq=2 ttl=54 time=34.300 ms
+64 bytes from 146.190.246.177: icmp_seq=3 ttl=54 time=4.978 ms
+64 bytes from 146.190.246.177: icmp_seq=4 ttl=54 time=6.202 ms
+^C
+--- 146.190.246.177 ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 4.978/29.584/97.171/35.591 ms
+
+➜  ~ ping -t 3 146.190.246.177 
+
+PING 146.190.246.177 (146.190.246.177): 56 data bytes
+64 bytes from 146.190.246.177: icmp_seq=0 ttl=54 time=24.596 ms
+64 bytes from 146.190.246.177: icmp_seq=1 ttl=54 time=63.232 ms
+64 bytes from 146.190.246.177: icmp_seq=2 ttl=54 time=105.009 ms
+
+--- 146.190.246.177 ping statistics ---
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 24.596/64.279/105.009/32.837 ms

@@ -1,0 +1,6 @@
+Using NSLookup.io:
+1. facebook.com - 157.240.22.35	United States of America
+2. ttc.ca - 20.39.143.75 Canada
+3. x.com 104.244.42.1 United States of America
+4. nike.com 18.155.192.12 United States of America
+5. nba.com 34.213.106.51 United States of America
