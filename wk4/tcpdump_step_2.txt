@@ -1,0 +1,11 @@
+root@comp3123-Winter2024:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+02:04:49.712285 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 447786401:447786509, ack 2702906081, win 501, options [nop,nop,TS val 1759728738 ecr 426521534], length 108
+02:04:49.712392 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 108:196, ack 1, win 501, options [nop,nop,TS val 1759728738 ecr 426521534], length 88
+02:04:49.712475 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 196:264, ack 1, win 501, options [nop,nop,TS val 1759728738 ecr 426521534], length 68
+02:04:49.712559 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 264:332, ack 1, win 501, options [nop,nop,TS val 1759728738 ecr 426521534], length 68
+02:04:49.712613 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 332:368, ack 1, win 501, options [nop,nop,TS val 1759728738 ecr 426521534], length 36
+5 packets captured
+36 packets received by filter
+0 packets dropped by kernel

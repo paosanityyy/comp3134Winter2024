@@ -1,0 +1,27 @@
+root@comp3123-Winter2024:~# tcpdump -i eth0 src 146.190.246.177
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+02:14:30.434182 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 460872225:460872333, ack 2702925537, win 501, options [nop,nop,TS val 1760309460 ecr 427102261], length 108
+02:14:30.434337 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 108:264, ack 1, win 501, options [nop,nop,TS val 1760309460 ecr 427102261], length 156
+02:14:30.434506 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 264:368, ack 1, win 501, options [nop,nop,TS val 1760309460 ecr 427102261], length 104
+02:14:30.533026 IP comp3123-Winter2024.43006 > 67.207.67.2.domain: 55830+ [1au] PTR? 40.117.117.141.in-addr.arpa. (56)
+02:14:30.533188 IP comp3123-Winter2024.45079 > 67.207.67.2.domain: 16739+ [1au] PTR? 40.117.117.141.in-addr.arpa. (56)
+02:14:30.533263 IP comp3123-Winter2024.41894 > 67.207.67.2.domain: Flags [S], seq 1818633638, win 64240, options [mss 1460,sackOK,TS val 3381300851 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+02:14:30.534752 IP comp3123-Winter2024.43006 > 67.207.67.2.domain: 55830+ PTR? 40.117.117.141.in-addr.arpa. (45)
+02:14:30.534810 IP comp3123-Winter2024.45079 > 67.207.67.2.domain: 16739+ PTR? 40.117.117.141.in-addr.arpa. (45)
+02:14:30.535043 IP comp3123-Winter2024.41894 > 67.207.67.2.domain: Flags [.], ack 2839832176, win 502, options [nop,nop,TS val 3381300852 ecr 1323923136], length 0
+02:14:30.535084 IP comp3123-Winter2024.41894 > 67.207.67.2.domain: Flags [P.], seq 0:47, ack 1, win 502, options [nop,nop,TS val 3381300852 ecr 1323923136], length 47 44785+ PTR? 40.117.117.141.in-addr.arpa. (45)
+02:14:30.535817 IP comp3123-Winter2024.41894 > 67.207.67.2.domain: Flags [.], ack 115, win 502, options [nop,nop,TS val 3381300853 ecr 1323923138], length 0
+02:14:30.536687 IP comp3123-Winter2024.37139 > 67.207.67.2.domain: 14429+ [1au] PTR? 177.246.190.146.in-addr.arpa. (57)
+02:14:30.537244 IP comp3123-Winter2024.37139 > 67.207.67.2.domain: 14429+ PTR? 177.246.190.146.in-addr.arpa. (46)
+02:14:30.538200 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 368:596, ack 1, win 501, options [nop,nop,TS val 1760309564 ecr 427102267], length 228
+02:14:30.538283 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 596:632, ack 1, win 501, options [nop,nop,TS val 1760309564 ecr 427102267], length 36
+02:14:30.538410 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 632:836, ack 1, win 501, options [nop,nop,TS val 1760309564 ecr 427102267], length 204
+02:14:30.538475 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 836:872, ack 1, win 501, options [nop,nop,TS val 1760309564 ecr 427102267], length 36
+02:14:30.538590 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 872:1076, ack 1, win 501, options [nop,nop,TS val 1760309564 ecr 427102267], length 204
+02:14:30.538659 IP comp3123-Winter2024.ssh > 141.117.117.40.24375: Flags [P.], seq 1076:1112, ack 1, win 501, options [nop,nop,TS val 1760309564 ecr 427102267], length 36
+02:14:30.636659 IP comp3123-Winter2024.51335 > 67.207.67.2.domain: 5846+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+02:14:30.636760 IP comp3123-Winter2024.42422 > 67.207.67.2.domain: 56183+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+02:14:30.636801 IP comp3123-Winter2024.41894 > 67.207.67.2.domain: Flags [P.], seq 47:91, ack 115, win 502, options [nop,nop,TS val 3381300954 ecr 1323923138], length 44 3641+ PTR? 2.67.207.67.in-addr.arpa. (42)
+02:14:30.637284 IP comp3123-Winter2024.51335 > 67.207.67.2.domain: 5846+ PTR? 2.67.207.67.in-addr.arpa. (42)
+02:14:30.637618 IP comp3123-Winter2024.42422 > 67.207.67.2.domain: 56183+ PTR? 2.67.207.67.in-addr.arpa. (42)
