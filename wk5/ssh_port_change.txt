@@ -1,0 +1,2 @@
+root@comp3134-Winter2024:~# service ssh restart
+~ ssh root@146.190.246.177 -p 2222
